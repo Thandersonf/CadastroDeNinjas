@@ -32,3 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 .env
+# Banco de Dados #
+/banco_dados
+
