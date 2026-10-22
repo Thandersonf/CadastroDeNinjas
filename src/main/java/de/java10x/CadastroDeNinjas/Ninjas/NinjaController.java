@@ -26,9 +26,9 @@ public class NinjaController {
          }
 
         //Mostrar todos os Ninjas(READ)
-         @GetMapping("/listar")
-         public String mostrarTodosOsNinjas(){
-            return "Mostrar todos os Ninjas";}
+         @GetMapping("/ordenarNinjaPorId")
+         public List<NinjaModel> ordenarNinjasId(){
+            return ninjaService.ordenarNinjasId();}
 
         //Mostrar ninjas por (READ)
 
